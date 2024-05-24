@@ -1,7 +1,7 @@
 { "commands": [
 { "hdr": "7E4", "rax": "7EC", "cmd": {"22": "0101"}, "freq": 1,
   "signals": [
-    {"id": "SPORTAGE_HVBAT_SOC", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "HV battery cell state of charge"}
+    {"id": "SPORTAGE_HVBAT_SOC", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
   ]}
 ]
 }
